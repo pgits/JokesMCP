@@ -150,7 +150,7 @@ app.delete("/mcp", async (req: Request, res: Response) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7860;
 setupServer()
   .then(() => {
     app.listen(PORT, () => {

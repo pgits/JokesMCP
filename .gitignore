@@ -7,8 +7,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # TypeScript
-dist/
-*.tsbuildinfo
+dist/*.tsbuildinfo
 
 # VS Code
 .vscode/

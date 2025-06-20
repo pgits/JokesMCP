@@ -20,7 +20,7 @@ COPY --from=builder /app/package.json ./
 COPY --from=builder /app/package-lock.json ./
 
 ENV NODE_ENV=production
-ENV PORT=80
+ENV PORT=6178
 
 RUN npm ci --ignore-scripts --omit-dev
 
